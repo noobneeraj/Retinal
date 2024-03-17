@@ -17,10 +17,9 @@ Web App: [RetinaVision AI](https://retinavisionai.streamlit.app/)
 9. Dependencies
 10. References
 11. Authors and Contributors
-12. License
-13. Usage Guidelines
-14. Release Date
-15. Additional Notes
+12. Usage Guidelines
+13. Release Date
+14. Additional Notes
 
 ## Overview
 
