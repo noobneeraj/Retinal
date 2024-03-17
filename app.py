@@ -142,8 +142,3 @@ st.markdown('')
 st.markdown('')
 st.markdown('')
 st.markdown('***')
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 42cc440598f0816d18d9ab74b8d570019fb4613f
