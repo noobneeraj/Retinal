@@ -205,42 +205,7 @@ st.markdown("""
 """)
 
 st.markdown('')
-st.markdown("""
-     ### Authors and Contributors
-     - Shreyas Bangera
-     - Affiliation: Open-Source Project
-     - Contact: shreyasdb99@gmail.com
-""")
 
-st.markdown('')
-st.markdown("""
-     ### License
-     ```
-     MIT License
-
-     Copyright (c) 2023 Shreyas
-
-     Permission is hereby granted, free of charge, to any person obtaining a copy
-     of this software and associated documentation files (the "Software"), to deal
-     in the Software without restriction, including without limitation the rights
-     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-     copies of the Software, and to permit persons to whom the Software is
-     furnished to do so, subject to the following conditions:
-
-     The above copyright notice and this permission notice shall be included in all
-     copies or substantial portions of the Software.
-
-     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-     SOFTWARE.
-     ```
-""")
-
-st.markdown('')
 st.markdown("""
      ### Usage Guidelines
      **Deployment Guidelines:**
@@ -264,13 +229,7 @@ st.markdown("""
 """)
 
 st.markdown('')
-st.markdown("""
-     ### Release Date
-     - Current model release: 2023-11-18
-     - First release: 2023-11-14
-""")
 
-st.markdown('')
 st.markdown("""
      ### Additional Notes
      - The model was trained using PyTorch and Python with an NVIDIA P100 GPU on a Kaggle environment. Key packages used include NumPy, Matplotlib, Pillow and Scikit-Learn.
@@ -288,44 +247,3 @@ st.markdown('')
 st.markdown('')
 st.markdown("***")
 
-css_copyr = '''
-<style>
-.footer-text {
-    font-size: 15px;
-    color: #888888;
-    text-align: center;
-}
-</style>
-'''
-
-st.markdown(css_copyr, unsafe_allow_html=True)
-
-st.markdown('<p class="footer-text">Copyright © 2023 &nbsp<i class="fa-solid fa-braille"></i>&nbspRetinaVision AI</p>', unsafe_allow_html=True)
-st.markdown("<p class='footer-text'>Contact us at shreyasdb99@gmail.com</p>", unsafe_allow_html=True)
-st.markdown('')
-
-css_fa = '''                                                                                                                                                     
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<style>
-.footer-fa {
-    font-size: 20px;
-    color: #888888;
-    text-align: center;
-    margin: 0 5px;
-    display: inline-block;
-}
-.footer-icons {
-    text-align: center;
-}
-</style>
-<div class="footer-icons">                                                                                                                                                                                                                                                                                               
-    <a href="https://github.com/shre-db" target="_blank"><i class="fa-brands fa-github footer-fa"></i></a>                                                                                                                                                                
-    <a href="https://www.linkedin.com/in/shreyas-bangera-aa8012271/" target="_blank"><i class="fa-brands fa-linkedin footer-fa"></i></a>                                                                                                                                                                         
-    <a href="https://www.instagram.com/shryzium/" target="_blank"><i class="fa-brands fa-instagram footer-fa"></i></a>
-</div><br>
-<div>
-    <p class="footer-text">Version 1.1.0</p>
-</div>
-'''
-
-st.markdown(css_fa, unsafe_allow_html=True)

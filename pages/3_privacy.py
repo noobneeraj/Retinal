@@ -61,72 +61,12 @@ st.markdown("""
     By using our service, you consent to the terms outlined in this Privacy Notice. If you do not agree with any part
     of this notice, please refrain from using our services.
 
-    If you have any questions or concerns about your privacy or data management, please reach out to us
-    at shreyasdb99@gmail.com.
-
     Thank you for choosing RetinaVision AI. We are dedicated to safeguarding your privacy and ensuring a
     secure and enjoyable experience with our services.
     
-    Sincerely,
+    
 """)
 
 
-css_signature = '''
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<style>
-.footer-signature {
-    font-size: 17px;
-    color: #000000;
-    text-align: left;
-}
-</style>
-<p class="footer-signature"><i class="fa-solid fa-braille"></i>&nbspRetinaVision AI</p>
-'''
-st.markdown(css_signature, unsafe_allow_html=True)
 
 
-st.markdown('***')
-
-
-css_copyr = '''
-<style>
-.footer-text {
-    font-size: 15px;
-    color: #888888;
-    text-align: center;
-}
-</style>
-'''
-st.markdown(css_copyr, unsafe_allow_html=True)
-
-
-st.markdown('<p class="footer-text">Copyright © 2023 &nbsp<i class="fa-solid fa-braille"></i>&nbspRetinaVision AI</p>', unsafe_allow_html=True)
-st.markdown("<p class='footer-text'>Contact us at shreyasdb99@gmail.com</p>", unsafe_allow_html=True)
-st.markdown('')
-
-
-css_fa = '''                                                                                                                                                     
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<style>
-.footer-fa {
-    font-size: 20px;
-    color: #888888;
-    text-align: center;
-    margin: 0 5px;
-    display: inline-block;
-}
-.footer-icons {
-    text-align: center;
-}
-</style>
-<div class="footer-icons">                                                                                                                                                                                                                                                                                               
-    <a href="https://github.com/shre-db" target="_blank"><i class="fa-brands fa-github footer-fa"></i></a>                                                                                                                                                                
-    <a href="https://www.linkedin.com/in/shreyas-bangera-aa8012271/" target="_blank"><i class="fa-brands fa-linkedin footer-fa"></i></a>                                                                                                                                                                         
-    <a href="https://www.instagram.com/shryzium/" target="_blank"><i class="fa-brands fa-instagram footer-fa"></i></a>
-</div><br>
-<div>
-    <p class="footer-text">Version 1.1.0</p>
-</div>
-'''
-
-st.markdown(css_fa, unsafe_allow_html=True)
